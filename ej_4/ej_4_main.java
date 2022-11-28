@@ -17,7 +17,7 @@ public class ej_4_main {
         proof.add(a);proof.add(b);proof.add(c);
         System.out.println("Prueba 1 ----");
         System.out.println(ej_4_logic.exercise4Logic(proof)+"\n\n");
-
+        proof.clear(); a.clear(); b.clear(); c.clear();
 
         a.add(24);a.add(7);a.add(10);
         b.add(9);b.add(1);b.add(8);
@@ -26,7 +26,7 @@ public class ej_4_main {
         proof.add(a);proof.add(b);proof.add(c);
         System.out.println("Prueba 2 ----");
         System.out.println(ej_4_logic.exercise4Logic(proof)+"\n\n");
-
+        proof.clear(); a.clear(); b.clear(); c.clear();
 
         a.add(4);a.add(12);a.add(18);
         b.add(2);b.add(6);b.add(2);
@@ -49,5 +49,5 @@ public class ej_4_main {
                          * [70, 21]
                          * 
                          * Prueba 3 -
-                         * [33,17]
+                         * [17,33]
                         */
